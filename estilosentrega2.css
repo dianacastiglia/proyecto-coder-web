@@ -1,0 +1,16 @@
+body{
+    font-family: 'Varela Round', sans-serif;
+}
+
+.bg-dark {
+    background-color: #1D1D1D !important;
+}
+.navbar-dark, .navbar[data-bs-theme="dark"]{
+    height: 7rem;
+    font-weight: 600;
+}
+.navbar-brand:focus, .navbar-brand{
+font-family: 'Permanent Marker', cursive;
+font-size: 2rem;
+}
+
