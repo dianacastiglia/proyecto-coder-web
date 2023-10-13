@@ -1,16 +1,39 @@
-body{
+main{
     font-family: 'Varela Round', sans-serif;
+    background: rgb(8,8,8);
+    background: linear-gradient(to bottom, #080808,#171717) no-repeat;
+    color: white;
+    
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'Permanent Marker', cursive;
 }
 
 .bg-dark {
     background-color: #1D1D1D !important;
 }
 .navbar-dark, .navbar[data-bs-theme="dark"]{
-    height: 7rem;
     font-weight: 600;
 }
 .navbar-brand:focus, .navbar-brand{
 font-family: 'Permanent Marker', cursive;
 font-size: 2rem;
 }
+
+.portada{
+    padding-top: 20%;
+}
+
+.btn-karate {
+    background-color: #0e153a;
+    border: solid 2px #0e153a;
+    color: white;
+  }
+  
+  .btn-karate:hover {
+    background-color: white;
+    color: #000;
+    border-color: #F5DC00;
+  }
 

@@ -14,13 +14,13 @@
   </head>
   <body>
     <header>
-      <nav class="navbar bg-dark border-bottom border-body navbar-expand-lg fixed-top" data-bs-theme="dark">
+      <nav class="navbar bg-dark border-bottom border-body navbar-expand-lg fixed-top bg-body-tertiary" data-bs-theme="dark">
         <div class="container">
           <a class="navbar-brand" href="#">Karate Do Zen Okinawa</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">   
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Inicio</a>
@@ -43,20 +43,34 @@
       </nav>
   </header>
 
-    <main>
-    <div class="container">
+  <main class="vh-100">
 
-      <div class="row">
-         <img src="Imagenes/01.jpg" alt="Dos personas haciendo karate en un parque" class="imagen01">
-      </div>
-      
-      <div class="row">
-        <h1>Karate Do Zen Okinawa</h1>  
-        <p>Av. Angel Gallardo 5- Eita Sports</p>
-        <button class="botones">Pedí Tu Primer Mes Gratis</button>
-      </div>
+    <section class="container">
 
-    </div>
+        <div class="row flex-md-row-reverse portada">
+
+            <div class="col-md-6">
+              <img src="Imagenes/01.jpg" alt="Dos personas haciendo karate en un parque" class="w-100"> 
+            </div>
+
+            <div class="col-md-6 d-md-flex flex-md-column justify-content-md-center">
+
+                <h1 class="text-center text-md-start display-2 fw-bold">KARATE DO ZEN OKINAWA</h1>
+
+                <p class="text-center text-md-start">
+                Si queres participar de una clase de Karate en la escuela, no te olvides que estamos en Av. Angel Gallardo 5, dentro del club Eita Sports
+                </p>
+                <div class="d-flex justify-content-center justify-content-md-start">
+                  <a href="" class="btn btn-karate btn-lg">
+                    Pedí Tu Primer Mes Gratis
+                  </a>
+              </div>
+            </div>
+        </div>
+
+
+    </section>
+
         <footer><p>©2023- All right reserved</p></footer>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
