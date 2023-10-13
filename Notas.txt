@@ -1,0 +1,8 @@
+Cosas que no pude resolver:
+
+- Que despues del footer no haya "body background"
+- Estilizar los iframes puestos de Google (calendar y maps) - incluyendo centrarlos
+- En la seccion de displinas aun no lo entregue como en el wireframe porque lo pienso hacer con flexbox
+- Hay muchas cosas que no hice porque lo pienso hacer mejor en flexbox (como por ejemplo en el Dojo y Disciplinas, ponerle mejor las alineaciones, paddig, etc)
+- El boton del inicio lo copie de internet porque vi uno re lindo
+- Aun tengo que definir la paleta de colores
